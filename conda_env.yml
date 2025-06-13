@@ -1,0 +1,18 @@
+name: ticker
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python=3.10
+  - scikit-learn
+  - scipy
+  - seaborn
+  - pip:
+      - xlsxwriter
+prefix: /miniconda/envs/ticker
