@@ -7,12 +7,12 @@ except FileNotFoundError:
 
 
 setup(
-    name="cage",
+    name="tickers",
     version=__version__,
-    description="The computational platform for Cage Therapeutics",
+    description="Tickers",
     url="",
     author="Dazhi Tan",
-    author_email="dtan@cagetx.com",
+    author_email="dazhi.tan.ma@gmail.com",
     license="Private",
     packages=find_packages(),
     scripts=[],
